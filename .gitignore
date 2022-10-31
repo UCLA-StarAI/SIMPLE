@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+
+L2X/data/
+L2X/models/
+L2X/data*/
+L2X/log/
+L2X/*.sh
