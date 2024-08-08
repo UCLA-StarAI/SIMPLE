@@ -207,7 +207,7 @@ if __name__ == '__main__':
     dynamo.config.cache_size_limit=10000
 
     from create_simple_constraint import create_exactly_k
-    alpha = create_exactly_k(8, 4)[0][-1]
+    alpha = create_exactly_k(4, 2)[0][-1]
     with open('4C2.pkl', 'wb') as out:
         pickle.dump(alpha, out, pickle.HIGHEST_PROTOCOL)
 
